@@ -5,7 +5,7 @@
         public DevEvent()
         {
             Speakers = new List<DevEventSpeaker>();
-            IsDeleted = true;
+            IsDeleted = false;
         }
 
         public Guid Id { get; set; }
